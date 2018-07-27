@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .header {
+            width: 100%;
+            height: 100px;
+            background: #333333;
+            text-align: center;
+
+        }
+        .footer{
+            width: 100%;
+            height: 150px;
+            background: #858585;
+            text-align: center;
+            color: #ffffff;
+            padding-top: 20px;
+        }
+        .header1{
+            width: 960px;
+            height: 100px;
+            margin: 0 auto;
+            position: relative;;
+        }
+        .logo{
+            position: absolute;;
+            left: 0;
+            line-height: 100px;
+            font-size: 2em;
+            color: #ffffff;
+        }
+        .navigation{
+            position: absolute;
+            top: 10px;
+            right: 0;
+        }
+        a{
+            color: #ffffff;
+            margin-left: 10px;
+        }
+        .banner{
+            width: 100%;
+            background: #66BB33;
+            height: 350px;
+            position: relative;
+        }
+        .nav {
+            width: 100%;
+            height: 80px;
+            border-bottom: 1px solid #DFDFDF;
+        }
+        .lab1{
+            display: flex;
+            width: 300px;
+            position: absolute;
+            right: 10%;
+            bottom: 20px;
+
+        }
+        .lab1 li{
+
+            list-style: none;
+            height: 60px;
+            padding: 15px;
+            margin-top: 30px;
+            margin-left: 5px;
+            background: #B2DD99;
+            border: 1px solid #478324;
+
+        }
+        .lab1 .second {
+             height: 80px;
+             padding: 30px 15px 15px 15px;
+             margin-top: 10px;
+            background: #ffffff;
+        }
+
+        .lab2{
+            width: 960px;
+            height: 100%;
+            margin: 0 auto;
+            display: flex;
+        }
+        .nav li{
+            list-style: none;
+            padding:20px 40px;
+            border-radius: 20px 20px 0 0;
+            margin-bottom: -1px;
+            margin-top: 20px;
+        }
+        .profile, .about{
+            background: #EEEEEE;
+            border: 1px solid #DFDFDF;
+        }
+        .home{
+            border: 1px solid;
+            border-color: #DFDFDF #DFDFDF #ffffff #DFDFDF;
+        }
+        .main{
+            width: 960px;
+            margin: 0 auto;
+        }
+        .line{
+            display: flex;
+            text-align: center;
+        }
+        .pic{
+
+            min-width: 80px;
+            min-height: 200px;
+            padding: 30px;
+            flex: 1 1 auto;
+            border: 1px solid #DFDFDF;
+            margin: 10px;
+        }
+
+
+    </style>
+</head>
+<body>
+<div class="header">
+    <div class="header1">
+        <div class="logo">Logo</div>
+        <div class="navigation">
+            <a href="#">Github</a>
+            <a href="#">Register</a>
+            <a href="#">Login</a>
+        </div>
+    </div>
+</div>
+<div class="banner">
+    <ul class="lab1">
+        <li>1</li>
+        <li class="second">2</li>
+        <li>3</li>
+        <li>4</li>
+    </ul>
+</div>
+<div class="nav">
+    <ul class="lab2">
+    <li class="home">HOME</li>
+    <li class="profile">PROFILE</li>
+    <li class="about">ABOUT</li>
+    </ul>
+</div>
+<div class="main">
+    <div class="line">
+        <div class="pic">This is content 1</div>
+        <div class="pic">Maybe content 2</div>
+        <div class="pic">content3</div>
+    </div>
+    <div class="line">
+        <div class="pic">content 4</div>
+        <div class="pic">content 5</div>
+        <div class="pic">content 6</div>
+        <div class="pic">content 7</div>
+    </div>
+    <div class="line">
+        <div class="pic">This is content 1</div>
+        <div class="pic">Maybe content 2</div>
+        <div class="pic">content3</div>
+    </div>
+</div>
+<div class="footer">2018 life.baidu.com</div>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        html,body{
+            margin: 0;
+            height: 100%;
+
+        }
+        .left, .main{
+            position: absolute;
+            top: 0;
+            width: 200px;
+            height: 100%;
+
+        }
+        .left{
+            left: 0;
+            background: #65A5FA;
+        }
+        .right{
+            margin-left: 840px;
+            height: 100%;
+            background: #9a99ff;
+        }
+        .main{
+            left: 0;
+            width: 600px;
+            margin: 0 220px;
+
+            background: #858585;
+        }
+    </style>
+</head>
+
+<body>
+
+
+<div class="right">
+    这里是自适应的右边部分
+
+</div>
+<div class="left">
+    这里是固定的左边部分
+    200px
+</div>
+<div class="main">
+    这里是固定的主体部分。
+    600px;
+</div>
+
+</body>
+</html>
